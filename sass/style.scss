@@ -1,0 +1,108 @@
+/*Introduction*/
+
+.introduction {
+  background-image: url('../images/duzy.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.row.d-flex.justify-content-around {
+  padding: 26px;
+}
+
+.container {
+  color: white;
+}
+
+.color {
+  color: yellow;
+}
+
+.introduction-text {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.btn {
+  font-size: 18px;
+  background-color: #fed136;
+  color: #ffffff;
+  padding: 10px;
+}
+
+/*Service*/
+
+.page-two {
+  color: black;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.services-title {
+  text-align: center;
+}
+
+
+
+h3 {
+  text-align: center;
+}
+
+.icons i {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-color: #fed136;
+  border-radius: 50%;
+}
+
+.icons {
+text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+/*Portfolio*/
+
+.page-three {
+  color: black;
+  background-color: silver;
+  margin: 250px 40px;
+}
+
+.card-body
+{
+  text-align: center;
+  background-color: white;
+  padding: 36px;
+}
+
+ img {
+
+  object-fit: cover;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: white;
+}
+
+.footer li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+a {
+  color: black;
+  list-style-type: none;
+}
