@@ -1,3 +1,7 @@
+
+
+
+
 /*Introduction*/
 
 .introduction {
@@ -28,6 +32,7 @@
   background-color: #fed136;
   color: #ffffff;
   padding: 10px;
+  text-decoration: none;
 }
 
 /*Service*/
@@ -74,18 +79,30 @@ h6 {
 .page-three {
   color: black;
   background-color: silver;
-  margin: 250px 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
 }
 
 .card-body
 {
   text-align: center;
   background-color: white;
-  padding: 36px;
+  padding: 10px;
+  font-size: 10px;
+  width:100%;
+
+}
+
+.card {
+  padding: 10px 0;
+  width: 291px;
+  margin: 0 auto;
 }
 
  img {
-
+  margin:0 auto;
+  display:block;
   object-fit: cover;
 }
 
@@ -96,13 +113,35 @@ h6 {
     background-color: white;
 }
 
-.footer li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px;
+.footer ul {
+  display: flex;
+  justify-content: center;
 }
 
-a {
+.footer li {
+display: flex;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background: black;
+margin: 10px;
+justify-content: center;
+align-items: center;
+cursor:pointer;
+color: white;
+}
+
+.footer i {
+  color: white;
+  font-size: 34px;
+}
+
+.footer a {
   color: black;
-  list-style-type: none;
+  text-decoration: none;
+}
+
+.copyright {
+  padding-top: 50px;
+  text-align: center;
 }
