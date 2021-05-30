@@ -1,6 +1,11 @@
 
+/*
+$color-main:
+$color-
 
-
+$font-text: 'Lobster', sans-serif;
+$font-seciotion:
+*/
 
 /*Introduction*/
 
@@ -8,6 +13,7 @@
   background-image: url('../images/duzy.png');
   background-position: center center;
   background-size: cover;
+  height: 450px;
 }
 
 .row.d-flex.justify-content-around {
@@ -25,7 +31,9 @@
 .introduction-text {
   text-align: center;
   padding-bottom: 60px;
+  padding-top: 112px;
 }
+
 
 .btn {
   font-size: 18px;
@@ -33,12 +41,14 @@
   color: #ffffff;
   padding: 10px;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 /*Service*/
 
 .page-two {
   color: black;
+  padding: 100px;
 }
 
 .section-title {
