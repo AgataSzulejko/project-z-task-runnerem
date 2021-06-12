@@ -34,6 +34,8 @@ $font-family: 'Roboto Slab', serif;
 
 .navigation li {
   display: inline;
+  margin: 0 10px;
+  cursor:pointer;
 }
 
 .color {
@@ -83,7 +85,7 @@ color:$color-navi-yellow;
   border-radius: 2px;
   font-family: $font-menu;
   font-size: 11pt;
-  font-style: bold;
+  font-weight:700;
 }
 
 /*Service*/
