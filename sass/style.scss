@@ -3,12 +3,19 @@
 $color-base-portfolio:#f7f7f7;
 $color-navi-yellow:#fed136;
 $font-color-grey:#a2a2a2;
+$color-page-frame:#282828;
+$color-base-services:#ffffff;
 
 $font-logo: 'Dancing Script', sans-serif;
 $font-menu: 'Montserrat', sans-serif;
 $font-welcome-title: 'Noto Serif', serif;
 $font-title: 'Roboto', sans-serif;
 $font-family: 'Roboto Slab', serif;
+
+body {
+   margin: 0 120px;
+   background-color:$color-page-frame;
+  }
 
 /*Introduction*/
 
@@ -115,19 +122,28 @@ color:$color-navi-yellow;
   color:$font-color-grey;
 }
 
+.services {
+  background-color:$color-base-services;
+}
 
-.services-title {
+
+.section-item-title {
   text-align: center;
   font-family: $font-menu;
   font-size: 11pt;
 }
 
-.services-description {
-  font-size:10pt;
+
+.section-item-subtitle {
+ font-size:10pt;
+ color:$font-color-grey;
+ font-weight:100;
+ }
+
+
+ .services-description {
   font-style: normal;
   line-height:18px;
-  font-weight:100;
-  color:$font-color-grey;
 }
 
 .portfolio .section-subtitle {
@@ -183,18 +199,11 @@ h6 {
   margin: 0 auto;
 }
 
-.card-name {
-  text-align: center;
-  font-family: $font-menu;
-  font-size: 11pt;
-}
+
 
 .card-subtitle {
-  font-size:10pt;
-  font-style: italic;
-  font-weight:100;
-  margin:9px 0 90px 0 ;
-  color:$font-color-grey;
+ font-style: italic;
+ margin:9px 0 90px 0;
 }
 
  img {
